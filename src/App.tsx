@@ -3,7 +3,7 @@ import Information from "./components/Information/Information"
 import InfoList from "./components/InfoList/InfoList"
 import LinkList from "./components/LinksList/LinksList"
 import About from "./components/About/About"
-import Education from "./components/EduAndExp/Education"
+import Eduex from "./components/EduAndExp/Eduex"
 
 function APP() {
 
@@ -34,7 +34,8 @@ function APP() {
                     </div>
                     <div id="areaRight">
                         <About />
-                        <Education />
+                        <Eduex type="education" title="Education" />
+                        <Eduex type="experience" title="Experience" />
                     </div>
                 </div>
             </div>
