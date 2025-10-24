@@ -1,0 +1,45 @@
+import Profile from "./components/Profile/Profile"
+import Information from "./components/Information/Information"
+import InfoList from "./components/InfoList/InfoList"
+import LinkList from "./components/LinksList/LinksList"
+import About from "./components/About/About"
+import Education from "./components/EduAndExp/Education"
+
+function APP() {
+
+    return (
+        <>
+            <div className="container">
+                <div className="grid-container">
+                    <div id="areaLeft">
+                        <Profile />
+                        <Information />
+                        <InfoList
+                            title="Skills"
+                            items={["HTML", "CSS", "React", "TypeScript"]}
+                        />
+                        <InfoList
+                            title="Hobbies & Interest"
+                            items={["Motobike", "Snowboarding", "MTB", "Console Games & PC"]}
+                        />
+                        <LinkList
+                            title="Links and Credentials"
+                            items={[
+                                { label: "Linkedin", icon: "linkedin", link: "https://www.linkedin.com/in/skazko-oleksandr/" },
+                                { label: "Github", icon: "github", link: "https://github.com/Skazko-O" },
+                                { label: "Instagram", icon: "instagram", link: "https://instagram.com" },
+                                { label: "Facebook", icon: "facebook", link: "https://fb.com" }
+                            ]}
+                        />
+                    </div>
+                    <div id="areaRight">
+                        <About />
+                        <Education />
+                    </div>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default APP

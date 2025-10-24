@@ -1,0 +1,16 @@
+.infoList {  
+  padding-left: 24px;  
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 6px;
+    height: 6px;
+    background-color: $text-color;
+    border-radius: 50%;
+  }
+}

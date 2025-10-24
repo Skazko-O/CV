@@ -1,0 +1,16 @@
+.contactCell {
+  width: 100%;
+  padding: 4px 8px;
+  background-color: $accent-color;
+  color: $main-color;
+  border-radius: 4px;
+  align-items: center;
+
+  a {
+    color: inherit;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}

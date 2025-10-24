@@ -1,0 +1,35 @@
+.links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;  
+
+  a {
+    color: $text-color;
+    position: relative;
+    display: inline-block;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 2px;
+      width: 100%;
+      height: 1px;
+      background-color: $text-color;
+    }
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+    fill: $text-color;
+  }
+}
+
+.itemLink {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: calc(50% - 5px);
+}

@@ -1,0 +1,13 @@
+[
+    {  
+    "institution": "NTUU \"Igor Sikorsky Kyiv Polytechnic Institute\"",
+    "city": "Kyiv",
+    "faculty": "Computer systems and networks",
+    "specialty": "Computer systems and networks engineer",
+    "degree": "Specialist",
+    "degree_equivalent": "Master degree",
+    "graduation_year": 2005,
+    "logo": "/images/logo/NTUU_KPI_logo.png",
+    "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
+    }   
+]
