@@ -47,8 +47,8 @@ body {
 }
 
 .grid-container {
-  display: grid;  
-  grid-template-columns: 310px 1fr;
+  display: grid;
+  grid-template-columns: minmax(270px, 25%) 1fr;
   height: 100vh;
 }
 
@@ -56,7 +56,7 @@ body {
   display: grid;
   width: 100%;
   grid-template-columns: 64px 1fr;
-  gap:48px;
+  gap: 48px;
 
   &:not(:last-child) {
     padding-bottom: 40px;
@@ -100,7 +100,7 @@ h3 {
   font-size: 22px;
   color: $main-color;
   position: relative;
-  margin-bottom: 4px;  
+  margin-bottom: 4px;
 
   &::after {
     content: "";
@@ -110,10 +110,36 @@ h3 {
     width: 64px;
     height: 4px;
     border-radius: 4px;
-    background-color: $main-color;    
+    background-color: $main-color;
   }
 }
 
-.text {  
+.text {
   color: $main-text-color;
+}
+
+@media (max-width: 760px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    height: auto;
+  }
+
+  #areaLeft {
+    gap: 20px;
+  }
+
+  #areaRight {
+    overflow-y: visible;
+    padding: 10px;
+  }
+
+  .eduex-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .logo {
+    width: 25%;
+  } 
+
 }

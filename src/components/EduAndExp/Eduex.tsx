@@ -29,7 +29,7 @@ function Eduex({type, title}: Props) {
             <div>
                 {education.map((eduex, index) => (
                     <div key={index} className="eduex-grid">
-                        <div style={{height:"64px"}}> <img src={eduex.logo} alt="Logo" /> </div>
+                        <div className="logo"> <img src={eduex.logo} alt="Logo" /> </div>
                         <div className={styles.infoSection}>
                             <h3>{eduex.institution}</h3>                            
                             <p>{eduex.spacialty} | {eduex.start_year} - {eduex.end_year}</p>                            
