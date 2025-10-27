@@ -5,7 +5,7 @@
     "spacialty": "Computer systems and networks engineer",
     "start_year": 1999,
     "end_year": 2005,  
-    "logo": "/images/logo/NTUU_KPI_Logo.png",
+    "logo": "assets/images/logo/NTUU_KPI_Logo.png",
     "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
     },
     
@@ -15,7 +15,7 @@
     "spacialty": "Software Engineer",
     "start_year": 2005,
     "end_year": 2006,  
-    "logo": "/images/logo/UZ_Logo.png",
+    "logo": "assets/images/logo/UZ_Logo.png",
     "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
     },
     {
@@ -24,7 +24,7 @@
     "spacialty": "Front-End Developer",
     "start_year": 2025,
     "end_year": 2025,  
-    "logo": "/images/logo/Beetroot_Academy_Logo.png",
+    "logo": "assets/images/logo/Beetroot_Academy_Logo.png",
     "text": "I gradueted in october 13, 2025"
     },
     {
@@ -33,7 +33,7 @@
     "spacialty": "System administrator",
     "start_year": 2006,
     "end_year": 2007,  
-    "logo": "/images/logo/Chicco_Logo.png",
+    "logo": "assets/images/logo/Chicco_Logo.png",
     "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
     },
     {
@@ -42,7 +42,7 @@
     "spacialty": "Project manager",
     "start_year": 2007,
     "end_year": 2008,  
-    "logo": "/images/logo/Baraban_Logo.jpg",
+    "logo": "assets/images/logo/Baraban_Logo.jpg",
     "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
     },
     {
@@ -51,7 +51,7 @@
     "spacialty": "Key Account Manager",
     "start_year": 2007,
     "end_year": 2008,  
-    "logo": "/images/logo/Edin_Logo.jpg",
+    "logo": "assets/images/logo/Edin_Logo.jpg",
     "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
     },
     {
@@ -60,7 +60,7 @@
     "spacialty": "Founder",
     "start_year": 2009,
     "end_year": 2018,  
-    "logo": "/images/logo/Igamer_Logo.png",
+    "logo": "assets/images/logo/Igamer_Logo.png",
     "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
     },
     {
@@ -69,7 +69,7 @@
     "spacialty": "Business Development and Support Manager",
     "start_year": 2018,
     "end_year": 2019,  
-    "logo": "/images/logo/Monpacie_Logo.jpeg",
+    "logo": "assets/images/logo/Monpacie_Logo.jpeg",
     "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
     },
     {
@@ -78,7 +78,7 @@
     "spacialty": "CTO Chief Technology Officer",
     "start_year": 2019,
     "end_year": 2025,  
-    "logo": "/images/logo/Greenbutik_Logo.jpg",
+    "logo": "assets/images/logo/Greenbutik_Logo.jpg",
     "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
     }
       
