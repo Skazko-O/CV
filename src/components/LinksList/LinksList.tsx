@@ -20,7 +20,7 @@ function LinksList({ title, items }: LinkListProps) {
                 {items.map(({ label, icon, link }, index) => (
                     <div key={index} className={styles.itemLink}>
                         <svg>
-                            <use href={`/images/icons/sprite.svg#${icon}`} />
+                            <use href={`assets/images/icons/sprite.svg#${icon}`} />
                         </svg>
                         <a href={link} target="_blank" title={label} rel="nofolow noreferrer">{label}</a>
                     </div>
