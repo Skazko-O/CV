@@ -1,7 +1,7 @@
 export type SupportedLang = 'en' | 'uk';
 export interface EduexEntry {
-    institution: string;
-    spacialty: string;
+    institution: Record<SupportedLang, string>;
+    spacialty: Record<SupportedLang, string>;
     start_year: number;
     end_year?: number;    
     logo: string;

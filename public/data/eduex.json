@@ -1,7 +1,13 @@
 [{
         "type": "education",
-        "institution": "NTUU \"Igor Sikorsky Kyiv Polytechnic Institute\"",
-        "spacialty": "Computer systems and networks engineer",
+        "institution": {
+            "en": "NTUU \"Igor Sikorsky Kyiv Polytechnic Institute\"",
+            "uk": "НТУУ \"Київський політехнічний інститут ім. Ігоря Сікорського\""
+        },
+        "spacialty": {
+            "en": "Computer systems and networks engineer",
+            "uk": "Інженер комп'ютерних систем і мереж"
+        },
         "start_year": 1999,
         "end_year": 2005,
         "logo": "assets/images/logo/NTUU_KPI_Logo.png",
@@ -12,10 +18,15 @@
     },
     {
         "type": "experience",
-        "institution": "greenbutik.com.ua",
-        "spacialty": "CTO Chief Technology Officer",
+        "institution": {
+            "en": "greenbutik.com.ua",
+            "uk": "greenbutik.com.ua"
+        },
+        "spacialty": {
+            "en": "CTO Chief Technology Officer",
+            "uk": "Технічний директор"
+        },
         "start_year": 2019,
-        "end_year": 2025,
         "logo": "assets/images/logo/Greenbutik_Logo.jpg",
         "text": {
             "en": "In 2019, I was involved in creating an online store for seed manufacturer Agropack, and eventually transitioned to working on this project full-time. I established a successful retail business selling seeds and gardening tools. I ensured full integration with various marketplaces and delivery services. I set up the production process for processing and shipping orders. All systems, including payment systems, were correctly configured and integrated. Support and consulting for the team of employees. Development and search for innovations, studying competitors. Strategic planning.",
@@ -24,8 +35,14 @@
     },
     {
         "type": "experience",
-        "institution": "monpacie.com",
-        "spacialty": "Business Development and Project Manager",
+        "institution": {
+            "en": "monpacie.com",
+            "uk": "monpacie.com"
+        },
+        "spacialty": {
+            "en": "Business Development and Project Manager",
+            "uk": "Менеджер з розвитку бізнесу"
+        },
         "start_year": 2018,
         "end_year": 2019,
         "logo": "assets/images/logo/Monpacie_Logo.jpeg",
@@ -36,8 +53,14 @@
     },
     {
         "type": "experience",
-        "institution": "i-gamer.ua",
-        "spacialty": "Founder",
+        "institution": {
+            "en": "i-gamer.ua",
+            "uk": "i-gamer.ua"
+        },
+        "spacialty": {
+            "en": "Founder",
+            "uk": "Засновник"
+        },
         "start_year": 2009,
         "end_year": 2018,
         "logo": "assets/images/logo/Igamer_Logo.png",
@@ -48,8 +71,14 @@
     },
     {
         "type": "experience",
-        "institution": "EDIN",
-        "spacialty": "Key Account Manager",
+        "institution": {
+            "en": "EDIN",
+            "uk": "EDIN"
+        },
+        "spacialty": {
+            "en": "Key Account Manager",
+            "uk": "Менеджер по роботі з ключовими клієнтами"
+        },
         "start_year": 2007,
         "end_year": 2009,
         "logo": "assets/images/logo/Edin_Logo.jpg",
@@ -60,8 +89,14 @@
     },
     {
         "type": "experience",
-        "institution": "Chicco Ukraine",
-        "spacialty": "System administrator",
+        "institution": {
+            "en": "Chicco Ukraine",
+            "uk": "Chicco Україна"
+        },
+        "spacialty": {
+            "en": "System administrator",
+            "uk": "Системний адміністратор"
+        },
         "start_year": 2006,
         "end_year": 2007,
         "logo": "assets/images/logo/Chicco_Logo.png",
@@ -72,8 +107,14 @@
     },
     {
         "type": "experience",
-        "institution": "JSC \"Ukrzaliznytsia\"",
-        "spacialty": "Software Engineer",
+        "institution": {
+            "en": "JSC «Ukrzaliznytsia»",
+            "uk": "АТ «Укрзалізниця»"
+        },
+        "spacialty": {
+            "en": "Software Engineer",
+            "uk": "Інженер-програміст"
+        },
         "start_year": 2005,
         "end_year": 2006,
         "logo": "assets/images/logo/UZ_Logo.png",
@@ -84,8 +125,14 @@
     },
     {
         "type": "education",
-        "institution": "Beetroot Academy",
-        "spacialty": "Front-End Developer",
+        "institution": {
+            "en": "Beetroot Academy",
+            "uk": "Beetroot Academy"
+        },
+        "spacialty": {
+            "en":"Front-End Developer",
+            "uk":"Front-End Розробник"
+        },
         "start_year": 2025,
         "end_year": 2025,
         "logo": "assets/images/logo/Beetroot_Academy_Logo.png",

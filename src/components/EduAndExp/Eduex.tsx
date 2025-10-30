@@ -15,6 +15,8 @@ function Eduex({type, title}: Props) {
     const { i18n } = useTranslation();
     const lang = i18n.language as SupportedLang;
 
+    const lacalizedPresent = lang === 'uk' ? 'До тепер' : 'Present'
+
     useEffect(() => {
         getEduex()
         .then((data) =>{
@@ -34,8 +36,8 @@ function Eduex({type, title}: Props) {
                     <div key={index} className="eduex-grid">
                         <div className="logo"> <img src={eduex.logo} alt="Logo" /> </div>
                         <div className={styles.infoSection}>
-                            <h3>{eduex.institution}</h3>                            
-                            <p>{eduex.spacialty} | {eduex.start_year} - {eduex.end_year ?? 'present'}</p>                            
+                            <h3>{eduex.institution[lang]}</h3>                            
+                            <p>{eduex.spacialty[lang]} | {eduex.start_year} - {eduex.end_year ?? lacalizedPresent}</p>                            
                             <p className="text">{eduex.text[lang] ?? eduex.text.en}</p>
                         </div>
                     </div>

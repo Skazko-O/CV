@@ -18,7 +18,7 @@ function APP() {
                         <Information />
                         <InfoList
                             title="Skills"
-                            items={["HTML", "CSS", "React", "TypeScript", "Vite", "Bootstrap"]}
+                            items={["HTML", "CSS", "JS", "React", "TypeScript", "Vite", "Bootstrap"]}
                         />
                         <InfoList
                             title="Hobbies & Interest"
