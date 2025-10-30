@@ -4,6 +4,7 @@ import InfoList from "./components/InfoList/InfoList"
 import LinkList from "./components/LinksList/LinksList"
 import About from "./components/About/About"
 import Eduex from "./components/EduAndExp/Eduex"
+import { LanguageSwitcher } from "./components/LanguageSwitcher/LanguageSwitcher"
 
 function APP() {
 
@@ -12,11 +13,12 @@ function APP() {
             <div className="container">
                 <div className="grid-container">
                     <div id="areaLeft">
+                        <LanguageSwitcher />
                         <Profile />
                         <Information />
                         <InfoList
                             title="Skills"
-                            items={["HTML", "CSS", "React", "TypeScript"]}
+                            items={["HTML", "CSS", "React", "TypeScript", "Vite", "Bootstrap"]}
                         />
                         <InfoList
                             title="Hobbies & Interest"

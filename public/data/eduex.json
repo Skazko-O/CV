@@ -1,85 +1,97 @@
-[
-    {
-    "type": "education",
-    "institution": "NTUU \"Igor Sikorsky Kyiv Polytechnic Institute\"",
-    "spacialty": "Computer systems and networks engineer",
-    "start_year": 1999,
-    "end_year": 2005,  
-    "logo": "assets/images/logo/NTUU_KPI_Logo.png",
-    "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
-    },
-    
-    {
-    "type": "experience",
-    "institution": "JSC \"Ukrzaliznytsia\"",
-    "spacialty": "Software Engineer",
-    "start_year": 2005,
-    "end_year": 2006,  
-    "logo": "assets/images/logo/UZ_Logo.png",
-    "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
+[{
+        "type": "education",
+        "institution": "NTUU \"Igor Sikorsky Kyiv Polytechnic Institute\"",
+        "spacialty": "Computer systems and networks engineer",
+        "start_year": 1999,
+        "end_year": 2005,
+        "logo": "assets/images/logo/NTUU_KPI_Logo.png",
+        "text": {
+            "en": "In 1999, I enrolled at the Kyiv Polytechnic University NTUU \"KPI\", Faculty of Computer Engineering, specializing in computer systems and networks. I gained knowledge in the basics of programming, database management, information security, and computer networks. In 2005, I received my specialist degree.",
+            "uk": "У 1999 я вступив до Київського політехнічного університету НТТУ \"КПІ\", факультет обчислювальної техніки за спеціальністю інженера-спеціаліста з комп'ютерних систем і мереж. Отримав знання з основ програмування, управління базами даних, захист інформації, комп'ютерні мережі. У 2005 році отримав диплом спеціаліста."
+        }
     },
     {
-    "type": "education",
-    "institution": "Beetroot Academy",
-    "spacialty": "Front-End Developer",
-    "start_year": 2025,
-    "end_year": 2025,  
-    "logo": "assets/images/logo/Beetroot_Academy_Logo.png",
-    "text": "I gradueted in october 13, 2025"
+        "type": "experience",
+        "institution": "greenbutik.com.ua",
+        "spacialty": "CTO Chief Technology Officer",
+        "start_year": 2019,
+        "end_year": 2025,
+        "logo": "assets/images/logo/Greenbutik_Logo.jpg",
+        "text": {
+            "en": "In 2019, I was involved in creating an online store for seed manufacturer Agropack, and eventually transitioned to working on this project full-time. I established a successful retail business selling seeds and gardening tools. I ensured full integration with various marketplaces and delivery services. I set up the production process for processing and shipping orders. All systems, including payment systems, were correctly configured and integrated. Support and consulting for the team of employees. Development and search for innovations, studying competitors. Strategic planning.",
+            "uk": "У 2019 році я був залучений до створення інтернет-магазину виробника насіння, компанії «Агропак», і згодом повністю перейшов працювати над цим проєктом. Я створив успішний роздрібний бізнес з продажу насіння та інструментів для саду. Налагоджена повна інтеграція з різними маркетплейсами і сервісами доставки. Налагодив виробничий процес обробки та відправки замовлень. Вірно налаштовано та інтегровані всі системи в тому числі й платіжні. Підтримка та консультування команди співробітників. Розвиток і пошук інновацій, вивчення конкурентів. Стратегічне планування."
+        }
     },
     {
-    "type": "experience",
-    "institution": "Chicco Ukraine",
-    "spacialty": "System administrator",
-    "start_year": 2006,
-    "end_year": 2007,  
-    "logo": "assets/images/logo/Chicco_Logo.png",
-    "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
+        "type": "experience",
+        "institution": "monpacie.com",
+        "spacialty": "Business Development and Project Manager",
+        "start_year": 2018,
+        "end_year": 2019,
+        "logo": "assets/images/logo/Monpacie_Logo.jpeg",
+        "text": {
+            "en": "Monpacie is an importer of materials for handicrafts. It has a huge assortment, warehouses, and a large network of stores. My main goal is to create a successful online store based on the existing one. Together with a team of developers, we created a website with a built-in CRM that could handle a specific range and a large number of products, over 20,000 items. In addition to online tasks, a lot was done offline: working with the warehouse, suppliers, sorting and picking orders. All offline tasks were transferred to our own CRM, which we developed.",
+            "uk": "Компанія Monpacie - імпортер матеріалів для творчості ручної роботи. Величезний асортимент , склади і велика мережа магазинів. Моя основна мета - створити успішний інтернет-магазин на базі вже існуючого. Ми разом з командою розробників створили інтернет-сайт з вбудованою CRM, яка вміла працювати зі специфічним асортиментом і великою кількістю продукції, понад 20 000 найменувань. Окрім задач в онлайн, багато було багато зроблено в офлайн: робота зі складом, з постачальниками, сортування та комплектування замовлень. Всі офлайнові задачі було перенесено у власну CRM, яку ми розробляли."
+        }
     },
     {
-    "type": "experience",
-    "institution": "Independent multimedia company baraban.ua",
-    "spacialty": "Project manager",
-    "start_year": 2007,
-    "end_year": 2008,  
-    "logo": "assets/images/logo/Baraban_Logo.jpg",
-    "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
+        "type": "experience",
+        "institution": "i-gamer.ua",
+        "spacialty": "Founder",
+        "start_year": 2009,
+        "end_year": 2018,
+        "logo": "assets/images/logo/Igamer_Logo.png",
+        "text": {
+            "en": "In 2009, my friend and I founded an online store selling game consoles, console games, and accessories. I was responsible for creating and developing the store: design, domain, hosting, advertising, connecting new technologies, as well as accounting and the CRM system. It was a great experience in creating our own product, which became successful for us and is still working today. In 2018, I sold my share in the business and started working on other online projects as a consultant and manager.",
+            "uk": "У 2009 році я разом зі своїм товаришем заснував інтернет-магази ігрових приставок, консольних ігор і аксесуарів. Я втадповідав за створення та розвиток магазину: дизайн, домен, хостінг, реклама, підключення нових технологій, а також облік і CRM-систему. Це був великий досвід у створенні власного продукту, який став для нас успішним і працює досі. У 2018 році я продав свою частку в бізнесі та почав працювати над іншими інтернет-проєктами як консультант і менеджер."
+        }
     },
     {
-    "type": "experience",
-    "institution": "EDIN",
-    "spacialty": "Key Account Manager",
-    "start_year": 2007,
-    "end_year": 2008,  
-    "logo": "assets/images/logo/Edin_Logo.jpg",
-    "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
+        "type": "experience",
+        "institution": "EDIN",
+        "spacialty": "Key Account Manager",
+        "start_year": 2007,
+        "end_year": 2009,
+        "logo": "assets/images/logo/Edin_Logo.jpg",
+        "text": {
+            "en": "Implementation of electronic document management in retail. Explaining and implementing electronic document management between large supermarket chains and their suppliers. Preparation of presentations, meetings with top management. Transferring the project to the implementation department. Communication with clients. Worked with such large chains as METRO, Billa, Velyka Kyshenya, Fozzy, and others.г8",
+            "uk": "Впровадження електронного документообігу в рітейлі. Роз'яснення і впровадження електронного документообігу між великими мережами супермаркетів та їхніми постачальниками. Підготовка презентацій, зустрічі з вищим керівництвом компаній. Передача проєкту до відділу впровадження. Комунікація з клієнтами. Працював з такими великими мережами як METRO, Billa, Велика Кишеня, Фоззі та інші."
+        }
     },
     {
-    "type": "experience",
-    "institution": "i-gamer.ua",
-    "spacialty": "Founder",
-    "start_year": 2009,
-    "end_year": 2018,  
-    "logo": "assets/images/logo/Igamer_Logo.png",
-    "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
+        "type": "experience",
+        "institution": "Chicco Ukraine",
+        "spacialty": "System administrator",
+        "start_year": 2006,
+        "end_year": 2007,
+        "logo": "assets/images/logo/Chicco_Logo.png",
+        "text": {
+            "en": "My main responsibilities were to maintain a fleet of computers in the office, as well as throughout the store network. Administration of servers based on Windows Server 2003. Setting up workflow automation processes. Administration of 1C:Accounting.",
+            "uk": "Мої основні обов'язки були - обслуговувати парк комп'ютерів в офісі, а також у всій мережі магазинів. Адміністрування серверів на базі Windows Server 2003. Налагодження процессів автоматизації процессів роботи. Адміністрування 1С:Бухгалтерія."
+        }
     },
     {
-    "type": "experience",
-    "institution": "monpacie.com",
-    "spacialty": "Business Development and Support Manager",
-    "start_year": 2018,
-    "end_year": 2019,  
-    "logo": "assets/images/logo/Monpacie_Logo.jpeg",
-    "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
+        "type": "experience",
+        "institution": "JSC \"Ukrzaliznytsia\"",
+        "spacialty": "Software Engineer",
+        "start_year": 2005,
+        "end_year": 2006,
+        "logo": "assets/images/logo/UZ_Logo.png",
+        "text": {
+            "en": "My first job after graduating from university. I gained experience in writing SQL queries, creating automated scripts for generating reports for the management of UZ, and developing simple HTML pages for working with tables.",
+            "uk": "Моє перше місце роботи після завершення навчання в університеті. Я отримав досвід написання SQL-запитів, створення автоматизованих скриптів для формування звітів для керівництва УЗ, а також розробки нескладних HTML-сторінок для роботи з таблицями."
+        }
     },
     {
-    "type": "experience",
-    "institution": "greenbutik.com.ua",
-    "spacialty": "CTO Chief Technology Officer",
-    "start_year": 2019,
-    "end_year": 2025,  
-    "logo": "assets/images/logo/Greenbutik_Logo.jpg",
-    "text": "I graduated in July 2019 with a GPA of 3.63. One of the award recipients for the best graduate of the university at the time. In my thesis, I looked into how Natural Language Processing (NLP) was used in Telegram Bot. For the NLP approach method, I used Neural Network (Deep Learning) and Text Mining."
+        "type": "education",
+        "institution": "Beetroot Academy",
+        "spacialty": "Front-End Developer",
+        "start_year": 2025,
+        "end_year": 2025,
+        "logo": "assets/images/logo/Beetroot_Academy_Logo.png",
+        "text": {
+            "en": "In May 2025, I decided to gain knowledge in the field of front-end development. I chose Beetroot Academy. I have never regretted it, even though I didn't really believe in courses before. I want to thank the academy and the teacher in particular for their work.  I gained knowledge ranging from basic understanding of HTML and CSS to creating complex projects on React. The teacher provided us not only with basic knowledge, but also with his invaluable personal experience as a front-end developer.  Here is a small part of what we learned: HTML, CSS, SCSS Figma for front-end developers, Git, semantics, working with pre- and post-processors, scalable vector graphics, responsive web design (RWD), JavaScript basics, asynchronous JavaScript, React.",
+            "uk": "У травні 2025 року я вирішив здобути знання за спеціальністю Front-End розробника. Я обрав Beetroot Academy. Жодного разу не пошкодував, хоч я раніше не зовсім вірив у курси. Хочу подякувати академії і окремо викладачеві за їхню роботу.  Я отримав знання, починаючи з базових розумінь HTML, CSS і закінчуючи створенням складних проектів на React. Викладач надав нам не тільки базові знання, а й особистий безцінний досвід front-end розробника.  Перерахую невелику частину того що ми вивчили: HTML, CSS, SCSS Figma для front-end розробника, Git, семантика, робота з пре- та постпроцесорами, масштабована векторна графіка, респонсивний вебдизайн (RWD), основи JavaScript, асинхронний JavaScript, React"
+        }
     }
-      
 ]
