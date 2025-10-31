@@ -29,7 +29,7 @@ function APP() {
                             items={[
                                 { label: "Linkedin", icon: "linkedin", link: "https://www.linkedin.com/in/skazko-oleksandr/" },
                                 { label: "Github", icon: "github", link: "https://github.com/Skazko-O" },
-                                { label: "Instagram", icon: "instagram", link: "https://instagram.com" },
+                                { label: "Instagram", icon: "instagram", link: "https://instagram.com/skazkoa" },
                                 { label: "Facebook", icon: "facebook", link: "https://fb.com" }
                             ]}
                         />

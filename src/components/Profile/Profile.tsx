@@ -1,7 +1,7 @@
 import styles from './Profile.module.scss';
 
 function Profile() {    
-    const avatar = 'assets/images/profile/skazko.png';
+    const avatar = 'images/profile/skazko.png';
     const description = 'Skazko Oleksandr';
     const title = 'Frontend Developer';
     return (

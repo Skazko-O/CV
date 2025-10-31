@@ -5,14 +5,13 @@ import styles from './Eduex.module.scss';
 import { useTranslation } from "react-i18next";
 
 type Props = {
-    type: 'education' | 'experience';
-    title: string;    
+    type: 'education' | 'experience';       
 }
 
-function Eduex({type, title}: Props) {
+function Eduex({ type }: Props) {
     const [education, setEduex] = useState<EduexEntry[]>([]);
     const [error, setError] = useState<string | null>(null);
-    const { i18n } = useTranslation();
+    const { t, i18n } = useTranslation();
     const lang = i18n.language as SupportedLang;
 
     const lacalizedPresent = lang === 'uk' ? 'До тепер' : 'Present'
@@ -30,7 +29,7 @@ function Eduex({type, title}: Props) {
 
     return (
         <>
-            <h2 className="heading">{title}</h2>
+            <h2 className="heading">{t(`section.${type}`)}</h2>
             <div>
                 {education.map((eduex, index) => (
                     <div key={index} className="eduex-grid">
