@@ -32,7 +32,8 @@ img {
 body {
   font-size: 18px;
   color: $text-color;
-  font-family: 'Poppins';
+  // font-family: 'Poppins';
+  font-family: sans-serif;
 }
 
 .page-wrapper {
@@ -65,7 +66,7 @@ body {
 
 #areaLeft {
   background-color: $main-color;
-  padding: 31px 12px;
+  padding: 12px;
   display: flex;
   flex-direction: column;
   gap: 40px;

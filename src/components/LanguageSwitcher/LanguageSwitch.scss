@@ -1,0 +1,71 @@
+.flipswitch {
+    position: relative;
+    width: 50px;
+  }
+
+  .flipswitch input[type=checkbox] {
+    display: none;
+  }
+
+  .flipswitch-label {
+    display: block;
+    overflow: hidden;
+    cursor: pointer;
+    border: 1px solid #999999;
+    border-radius: 50px;
+    margin-bottom: 10px;
+  }
+
+  .flipswitch-inner {
+    width: 200%;
+    margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+  }
+
+  .flipswitch-inner:before, .flipswitch-inner:after {
+    float: left;
+    width: 50%;
+    height: 15px;
+    padding: 0;
+    line-height: 15px;
+    font-size: 10px;
+    color: white;    
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+
+  .flipswitch-inner:before {
+    content: "UK";
+    padding-left: 9px;
+    background-color: #FFD100;
+    color: #0082D1;
+  }
+
+  .flipswitch-inner:after {
+    content: "EN";
+    padding-right: 9px;
+    background-color: #FFFFFF;
+    color: #CE1126;
+    text-align: right;
+  }
+
+  .flipswitch-switch {
+    width: 17px;
+    // margin: -2.5px;
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 33px;
+    transition: all 0.3s ease-in 0s;
+  }
+
+  .flipswitch-cb:checked + .flipswitch-label .flipswitch-inner {
+    margin-left: 0;
+  }
+
+  .flipswitch-cb:checked + .flipswitch-label .flipswitch-switch {
+    right: 0;
+  }
