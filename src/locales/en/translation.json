@@ -2,5 +2,31 @@
   "section": {
     "education": "Education",
     "experience": "Experience"
+  },
+  "profile": {
+    "name": "Skazko Oleksandr",
+    "title": "Frontend Developer"
+  },
+  "about": {
+    "about": "About",
+    "text": "I have experience in organising the work of online stores, integrating and configuring new modern technologies that help in business. For the last 7 years, I have been working as a project manager. In 2025, I successfully completed front-end developer courses and plan to continue working in programming, web application development, online stores, CRM, etc. I plan to develop in this direction, so I am considering offers in the field of front-end development."
+  },
+  "contact": {
+    "dateValue": "May 25, 1982",
+    "locationValue": "Kyiv, Ukraine"
+  },
+  "headings": {
+    "links": "Social Networks",
+    "hobby": "Hobbies & Interest",
+    "skills": "Skills"
+  },
+  "skills": {
+    "HTML": "HTML",
+    "CSS": "CSS",
+    "JS": "JS",
+    "React": "React",
+    "TypeScript": "TypeScript",
+    "Vite": "Vite",
+    "Bootstrap": "Bootstrap"
   }
 }

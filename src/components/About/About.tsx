@@ -1,14 +1,11 @@
+import { useTranslation } from "react-i18next"
+
 function About() {
+    const { t } = useTranslation(); 
     return (
         <div>
-            <h2 className="heading">About</h2>
-            <p className="text">
-                I have a background in information technology,
-                with a focus on frontend development and UI design.
-                I am the type of person who seizes every opportunity to learn something new.
-                That is why I enjoy challenges.
-                From there, I'm under pressure to learn quickly and gain a lot of new experience.
-            </p>
+            <h2 className="heading">{t('about.about')}</h2>
+            <p className="text">{t('about.text')}</p>
         </div>
     )
 }

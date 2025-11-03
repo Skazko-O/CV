@@ -1,20 +1,21 @@
+import { useTranslation } from 'react-i18next';
 import styles from './Profile.module.scss';
 
 function Profile() {    
+    const { t } = useTranslation();
     const avatar = 'images/profile/skazko.png';
-    const description = 'Skazko Oleksandr';
-    const title = 'Frontend Developer';
+
     return (
     <section>
         <div className={styles.profileIcon}>
             <img
                 src={avatar}
-                alt={description}
+                alt={t('profile.name')}
             />
         </div>
         <div>
-            <h1>{description}</h1>
-            <p className={styles.jobTitle}>{title}</p>
+            <h1>{t('profile.name')}</h1>
+            <p className={styles.jobTitle}>{t('profile.title')}</p>
         </div>
     </section>)    
 }

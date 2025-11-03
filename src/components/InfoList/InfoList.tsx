@@ -1,14 +1,16 @@
+import { useTranslation } from 'react-i18next';
 import styles from './InfoList.module.scss'
 
 interface InfoListProps {
-    title: string;
+    headingKey: string;
     items: string[];    
 }
 
-function InfoList({ title, items } : InfoListProps) {
+function InfoList({ headingKey, items } : InfoListProps) {
+const { t } = useTranslation();
     return (
         <div>
-            <h2>{title}</h2>
+            <h2>{t(headingKey)}</h2>
             <ul>
                 {items.map((item, index) => (
                     <li key={index} className={styles.infoList}>{item}</li>

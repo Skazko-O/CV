@@ -1,3 +1,4 @@
+import { useTranslation } from 'react-i18next';
 import styles from './LinksList.module.scss'
 
 interface LinkItem {
@@ -6,16 +7,16 @@ interface LinkItem {
     link: string;
 }
 
-interface LinkListProps {
-    title: string;   
+interface LinkListProps {    
     items: LinkItem[];
 }
 
-function LinksList({ title, items }: LinkListProps) {
+function LinksList({ items }: LinkListProps) {
+const { t } = useTranslation();
 
     return (
         <div>
-            <h2>{title}</h2>
+            <h2>{t('headings.links')}</h2>
             <div className={styles.links}>
                 {items.map(({ label, icon, link }, index) => (
                     <div key={index} className={styles.itemLink}>

@@ -1,21 +1,26 @@
+import { useTranslation } from 'react-i18next';
 import styles from './Information.module.scss';
 
 function Information() {
+    const { t } = useTranslation();
+
     const contactData = [
-        { type: 'date', value: 'May 25, 1982' },
+        { type: 'date', valueKey: 'contact.dateValue', dateTime: '1982-05-25' },
         { type: 'phone', value: '+380677257114' },
         { type: 'email', value: 'skazko@outlook.com' },
-        { type: 'location', value: 'Bilohorodka, Ukraine' }
+        { type: 'location', valueKey: 'contact.locationValue' }
     ];
     return (
         <div>
-            {contactData.map(({ type, value }, index) => {
+            {contactData.map(({ type, value, valueKey, dateTime }, index) => {              
+                const contentValue = valueKey ? t(valueKey) : value;
+
                 let content;
 
                 switch (type) {
 
                     case 'date':
-                        content = <time dateTime="1982-05-25">{value}</time>;
+                        content = <time dateTime={dateTime}>{contentValue}</time>;
                         break;
 
                     case 'phone':
@@ -27,11 +32,11 @@ function Information() {
                         break;
 
                     default:
-                        content = <span>{value}</span>;
+                        content = <span>{contentValue}</span>;
                 }
 
                 return (
-                    <div key={index} className={styles.contactCell}>
+                    <div key={index} className={styles.contactCell}>                      
                         {content}
                     </div>
                 );

@@ -14,20 +14,21 @@ function APP() {
                 <div className="grid-container">
                     <div id="areaLeft">
                         <div>
-                            <LanguageSwitch />
+                           <div style={{display: "flex", justifyContent: "flex-end" }}> 
+                            <LanguageSwitch /> 
+                            </div>
                             <Profile />
                         </div>
                         <Information />
                         <InfoList
-                            title="Skills"
+                            headingKey="headings.skills"
                             items={["HTML", "CSS", "JS", "React", "TypeScript", "Vite", "Bootstrap"]}
                         />
                         <InfoList
-                            title="Hobbies & Interest"
+                            headingKey="headings.hobby"
                             items={["Motobike", "Snowboarding", "MTB", "Console Games & PC"]}
                         />
-                        <LinkList
-                            title="Links and Credentials"
+                        <LinkList                           
                             items={[
                                 { label: "Linkedin", icon: "linkedin", link: "https://www.linkedin.com/in/skazko-oleksandr/" },
                                 { label: "Github", icon: "github", link: "https://github.com/Skazko-O" },
