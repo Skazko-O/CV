@@ -22,7 +22,7 @@ function APP() {
                         <Information />
                         <InfoList
                             headingKey="headings.skills"
-                            items={["HTML", "CSS", "JS", "React", "TypeScript", "Vite", "Bootstrap"]}
+                            items={["HTML", "CSS", "SCSS", "JS", "React", "TypeScript", "Vite", "Bootstrap"]}
                         />
                         <InfoList
                             headingKey="headings.hobby"

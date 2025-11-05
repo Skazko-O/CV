@@ -1,6 +1,6 @@
 .flipswitch {
     position: relative;
-    width: 50px;
+    width: 62.5px;
   }
 
   .flipswitch input[type=checkbox] {
@@ -12,8 +12,8 @@
     overflow: hidden;
     cursor: pointer;
     border: 1px solid #999999;
-    border-radius: 50px;
-    margin-bottom: 10px;
+    border-radius: 62.5px;
+    margin-bottom: 12.5px;
   }
 
   .flipswitch-inner {
@@ -25,10 +25,10 @@
   .flipswitch-inner:before, .flipswitch-inner:after {
     float: left;
     width: 50%;
-    height: 15px;
+    height: 18.75px;
     padding: 0;
-    line-height: 15px;
-    font-size: 10px;
+    line-height: 18.75px;
+    font-size: 12.5px;
     color: white;    
     font-weight: bold;
     box-sizing: border-box;
@@ -36,30 +36,30 @@
 
   .flipswitch-inner:before {
     content: "UK";
-    padding-left: 9px;
+    padding-left: 11.25px;
     background-color: #FFD100;
     color: #0082D1;
   }
 
   .flipswitch-inner:after {
     content: "EN";
-    padding-right: 9px;
+    padding-right: 11.25px;
     background-color: #FFFFFF;
     color: #CE1126;
     text-align: right;
   }
 
   .flipswitch-switch {
-    width: 17px;
-    height: 17px;
+    width: 21.25px;
+    height: 21.25px;
     // margin: -2.5px;
     background: #FFFFFF;
     border: 1px solid #999999;
-    border-radius: 50px;
+    border-radius: 62.5px;
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 33px;
+    right: 41.25px;
     transition: all 0.3s ease-in 0s;
   }
 

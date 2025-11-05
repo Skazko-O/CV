@@ -20,13 +20,7 @@
     "hobby": "Hobbies & Interest",
     "skills": "Skills"
   },
-  "skills": {
-    "HTML": "HTML",
-    "CSS": "CSS",
-    "JS": "JS",
-    "React": "React",
-    "TypeScript": "TypeScript",
-    "Vite": "Vite",
-    "Bootstrap": "Bootstrap"
+  "common": {
+    "present": "Present"
   }
 }
