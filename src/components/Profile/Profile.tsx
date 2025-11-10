@@ -3,7 +3,7 @@ import styles from './Profile.module.scss';
 
 function Profile() {    
     const { t } = useTranslation();
-    const avatar = 'images/profile/skazko.png';
+    const avatar = 'images/profile/skazko.jpg';
 
     return (
     <section>
