@@ -119,6 +119,17 @@ h3 {
   color: $main-text-color;
 }
 
+.header-actions {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 15px;    
+    
+    @media print {
+        display: none; 
+    }
+}
+
 @media (max-width: 760px) {
   .grid-container {
     grid-template-columns: 1fr;

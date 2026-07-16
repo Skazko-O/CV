@@ -1,0 +1,25 @@
+.printBtn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease, opacity 0.2s ease;    
+
+    svg {
+        width: 36px;        
+        height: 36px;
+        fill: #ffffff;
+    }
+
+    &:hover {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+}
