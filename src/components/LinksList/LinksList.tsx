@@ -23,7 +23,7 @@ const { t } = useTranslation();
                         <svg>
                             <use href={`images/icons/sprite.svg#${icon}`} />
                         </svg>
-                        <a href={link} target="_blank" title={label} rel="nofolow noreferrer">{label}</a>
+                        <a href={link} target="_blank" title={label} rel="nofollow noreferrer">{label}</a>
                     </div>
                 )
                 )}

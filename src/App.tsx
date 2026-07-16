@@ -5,6 +5,7 @@ import LinkList from "./components/LinksList/LinksList"
 import About from "./components/About/About"
 import Eduex from "./components/EduAndExp/Eduex"
 import { LanguageSwitch } from "./components/LanguageSwitcher/LanguageSwitcher"
+import { FadeIn } from "./components/FadeIn/FedeIn"
 
 function APP() {
 
@@ -12,7 +13,7 @@ function APP() {
         <>
             <div className="container">
                 <div className="grid-container">
-                    <div id="areaLeft">
+                    <aside id="areaLeft">
                         <div>
                            <div style={{display: "flex", justifyContent: "flex-end" }}> 
                             <LanguageSwitch /> 
@@ -36,12 +37,12 @@ function APP() {
                                 { label: "Facebook", icon: "facebook", link: "https://fb.com" }
                             ]}
                         />
-                    </div>
-                    <div id="areaRight">
-                        <About />
-                        <Eduex type="education" />
-                        <Eduex type="experience" />
-                    </div>
+                    </aside>
+                    <main id="areaRight">
+                        <FadeIn><About /></FadeIn>
+                        <FadeIn><Eduex type="education" /></FadeIn>
+                        <FadeIn><Eduex type="experience" /></FadeIn>
+                    </main>
                 </div>
             </div>
         </>
