@@ -13,4 +13,34 @@
   &:not(:last-child) {
     margin-bottom: 20px;
   }
+
+  @media print {
+    background-color: transparent;
+    width: auto;
+    display: inline;
+    margin: 0;
+    padding-right: 5px;   
+
+    time {
+      display: none;
+    }
+
+    a[href^="tel:"]::before {
+      content: "Phone:";
+      font-weight: bold;
+      margin-right: 4px;
+    }
+
+    a[href^="mailto:"]::before {
+      content: "Email:";
+      font-weight: bold;
+      margin-right: 4px;
+    }
+
+    &:nth-child(4)::before {
+      content: "Location:";
+      font-weight: bold;
+      margin-right: 4px;
+    }
+  }
 }

@@ -16,7 +16,7 @@ const { t } = useTranslation();
 
     return (
         <div>
-            <h2>{t('headings.links')}</h2>
+            <h2 className={styles.title}>{t('headings.links')}</h2>
             <div className={styles.links}>
                 {items.map(({ label, icon, link }, index) => (
                     <div key={index} className={styles.itemLink}>

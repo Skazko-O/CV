@@ -33,3 +33,12 @@
   gap: 5px;
   width: calc(50% - 5px);
 }
+
+@media print {
+
+  .links,
+  .title,
+  .itemLink {
+    display: none;
+  }
+}

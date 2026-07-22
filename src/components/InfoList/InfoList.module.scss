@@ -1,5 +1,5 @@
-.infoList {  
-  padding-left: 24px;  
+.infoList {
+  padding-left: 24px;
   position: relative;
 
   &::before {
@@ -12,5 +12,13 @@
     height: 6px;
     background-color: $text-color;
     border-radius: 50%;
+  }
+}
+
+@media print {
+
+  .infoList,
+  .title {
+    display: none;
   }
 }

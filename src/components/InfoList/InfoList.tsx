@@ -10,7 +10,7 @@ function InfoList({ headingKey, items } : InfoListProps) {
 const { t } = useTranslation();
     return (
         <div>
-            <h2>{t(headingKey)}</h2>
+            <h2 className={styles.title}>{t(headingKey)}</h2>
             <ul>
                 {items.map((item, index) => (
                     <li key={index} className={styles.infoList}>{item}</li>
