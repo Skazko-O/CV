@@ -32,10 +32,14 @@ function APP() {
                 "CSS",
                 "SCSS",
                 "JS",
-                "React",
+                "React.js",
+                "Vue.js",
                 "TypeScript",
                 "Vite",
                 "Bootstrap",
+                "Tailwindcss",
+                "Docker",
+                "PostgreSQL"
               ]}
             />
             <InfoList
